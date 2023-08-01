@@ -1,4 +1,4 @@
 package SpringBlack.black.student;
 
-public class StudentRepository {
+public interface StudentRepository {
 }
