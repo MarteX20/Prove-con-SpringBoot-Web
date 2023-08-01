@@ -15,6 +15,7 @@ public class StudentService {
 
     @GetMapping()
     public List<Student> getStudents(){
+
         return List.of(new Student("Art", "email@email.com", LocalDate.of(2000,  Month.APRIL, 5), 21));
     }
 
