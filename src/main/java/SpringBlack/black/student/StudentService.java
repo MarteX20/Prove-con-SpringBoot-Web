@@ -21,8 +21,7 @@ public class StudentService {
 
     @GetMapping()
     public List<Student> getStudents(){
-
-        return studentRepository.findAll()  ;
+        return studentRepository.findAll();
     }
 
 }

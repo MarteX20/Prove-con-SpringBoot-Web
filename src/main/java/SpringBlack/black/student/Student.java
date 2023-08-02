@@ -7,6 +7,11 @@ import lombok.*;
 import java.time.LocalDate;
 @Entity
 @Table
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
 public class Student {
     @Id
     @SequenceGenerator(name = "student_sequence", sequenceName = "student_sequence", allocationSize = 1)
