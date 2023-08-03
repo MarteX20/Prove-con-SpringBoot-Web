@@ -23,7 +23,7 @@ public class Student {
     private String email;
 
     private LocalDate dob;
-    @Transient //@Transient fa in modo che la riga sotto non sia una colonna nel database e quindi significa che (in questo caso età) sarà calcolata da sola
+    @Transient //@Transient fa in modo che la riga sotto non sia una colonna nel database e quindi significa che (in questo caso età) sarà calcolata da sola (sarà comunque presente in JSON quando si fa GET
     private Integer age;
 
 
